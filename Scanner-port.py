@@ -1,5 +1,5 @@
 import socket
-p("=== Mini scanner de Ports ===")
+print("=== Mini scanner de Ports ===")
 target= input(" IP ou domaine à scanner : ")
 port = int(input(" Port à tester, par exemple : 22, 80 ,43 : "))
 print(f"Scan de (target) port (port)...")
