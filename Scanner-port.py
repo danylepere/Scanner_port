@@ -3,10 +3,10 @@ print("=== Mini Scanner de Ports === ")
 target = input(" IP ou domaine à scanner :")
 port = int(input(" Port à tester, par exemple: 22, 80, 43 :")
 print(f"Scan de {target} port {port}...")
-           s= socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+           s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 s.settimeout(1)
 try
-  if s.connext_ex(target,port) == 0
+  if s.connect_ex(target,port) == 0
     print(f"Resultat : Port{port} est OUVERT 🔓 ")
   else :
     print(f" Resultat : Port{port} est FERMÉ 🔒 ")
