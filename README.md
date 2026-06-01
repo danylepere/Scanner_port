@@ -1,4 +1,3 @@
-
 # Scanner_port 🔒
 
 Mon premier Script Python de cybersécurité - Niveau Licence 1
@@ -22,4 +21,4 @@ Exemple : Tester si le port 22 SSH ou 80 HTTP répond.
 Les bases du réseau + comment python communique avec les ports.
 Projet fait pour m'entrainer avant TryHackMe.
 
-⚠️ Usage éducatif uniquement. Ne scanner que vos propres machines ou avec autorisation.
+⚠️ Usage éducatif uniquement. Ne scannez que vos propres machines ou avec autorisation.
